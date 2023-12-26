@@ -1,4 +1,10 @@
-export class StoryLink {
-    linkType;
-    link;
+export interface StoryLink {
+    linkType: LinkType;
+    link: string;
+}
+
+export enum LinkType {
+    YOUTUBE,
+    GITHUB,
+    MEDIUM
 }
