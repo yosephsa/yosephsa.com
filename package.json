@@ -5,7 +5,9 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build ; npm run deploy:rsync",
+    "deploy:rsync": "rsync -rvz -e 'ssh -p 21098' --progress ./dist/ yosedzeu@162.0.232.137:/home/yosedzeu/public_html/"
   },
   "dependencies": {
     "core-js": "^3.8.3",
