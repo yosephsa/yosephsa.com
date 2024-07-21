@@ -1,3 +1,3 @@
 <template>
-  Home Page
+  Contact Page
 </template>

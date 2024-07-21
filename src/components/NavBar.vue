@@ -29,7 +29,7 @@
     </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: 'NavBar',
   props: {
@@ -70,7 +70,7 @@ export default {
 	align-items: center;
   cursor: pointer;
 }
-.global-nav .nav-button:hover, .global-nav .nav-button.active {
+.global-nav .nav-button:hover, .global-nav .nav-button.router-link-active {
 	color: var(--color-creamy-ocean);
 	fill: var(--color-creamy-ocean);
 }

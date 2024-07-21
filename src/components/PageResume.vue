@@ -1,3 +1,3 @@
 <template>
-  Home Page
+  Resume Page
 </template>
